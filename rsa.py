@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> 8150d2d (RSA)
 from rich.console import Console
 from rich.progress import track
 from rich.table import Table

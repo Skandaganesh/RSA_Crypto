@@ -15,8 +15,8 @@ A Python CLI tool that demonstrates RSA encryption and decryption with rich term
 ```
 rsa_encryptor/
 ├── input.txt           # Text file to encrypt
-├── encrypted.enc       # Output: Encrypted text (numeric form)
-├── decrypted.dec.enc   # Output: Decrypted plaintext
+├── encrypted.enc.txt       # Output: Encrypted text (numeric form)
+├── decrypted.dec.txt   # Output: Decrypted plaintext
 ├── main.py             # RSA logic with rich visuals
 ```
 
