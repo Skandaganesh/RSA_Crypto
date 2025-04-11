@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8150d2d (RSA)
 from rich.console import Console
 from rich.progress import track
 from rich.table import Table
@@ -84,12 +88,12 @@ def encrypt_text(text, public_key):
     remaining_encrypted = [pow(ord(ch), e, n) for ch in text[10:]]
     return preview_encrypted + remaining_encrypted
 
-def save_encrypted(cipher, filename="encrypted.enc"):
+def save_encrypted(cipher, filename="encrypted.enc.txt"):
     with open(filename, "w") as f:
         f.write(" ".join(map(str, cipher)))
     console.print(f"[bold green]Encrypted file saved as {filename}")
 
-def load_encrypted(filename="encrypted.enc"):
+def load_encrypted(filename="encrypted.enc.txt"):
     with open(filename, "r") as f:
         cipher = list(map(int, f.read().split()))
     return cipher

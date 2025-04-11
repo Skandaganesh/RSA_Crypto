@@ -1,0 +1,8 @@
+#ignore enc and txt file
+*.enc
+*.dec.txt
+*.enc.txt
+
+#gitignore
+
+
