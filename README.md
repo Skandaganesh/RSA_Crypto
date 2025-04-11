@@ -17,7 +17,7 @@ rsa_encryptor/
 ├── input.txt           # Text file to encrypt
 ├── encrypted.enc.txt       # Output: Encrypted text (numeric form)
 ├── decrypted.dec.txt   # Output: Decrypted plaintext
-├── main.py             # RSA logic with rich visuals
+├── rsa.py             # RSA logic with rich visuals
 ```
 
 ---
@@ -41,7 +41,7 @@ pip install rich
 2. **Run the script**
 
 ```bash
-python main.py
+python rsa.py
 ```
 
 3. **See the results**
@@ -88,19 +88,6 @@ H → ASCII 72 → (72^7 mod 20227) = 8452
 8452 → (8452^17023 mod 20227) = 72 → H
 ...
 ```
-
----
-
-## 🧠 Educational Purpose
-
-This tool is built for educational use to **learn and visualize** how RSA encryption works under the hood — with real-time steps and breakdowns for better understanding.
-
----
-
-## 🛠️ Credits
-
-- Developed with ❤️ by [Your Name]
-- Rich Library: [https://github.com/Textualize/rich](https://github.com/Textualize/rich)
 
 ---
 
