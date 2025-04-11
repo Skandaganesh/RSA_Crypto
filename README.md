@@ -48,7 +48,7 @@ python rsa.py
    - 📜 RSA key generation with colorful breakdown
    - 🔐 First 10 characters visualized during encryption
    - 🔓 First 10 characters visualized during decryption
-   - 💾 Files `encrypted.enc` and `decrypted.dec.enc` are saved automatically
+   - 💾 Files `encrypted.enc.txt` and `decrypted.dec.txt` are saved automatically
 
 ---
 
